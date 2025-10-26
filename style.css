@@ -32,3 +32,41 @@ footer {
     position: relative;
     bottom: 0;
 }
+
+.welcome-card {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    transition: transform 0.3s ease;
+}
+
+.welcome-card:hover {
+    transform: translateY(-5px);
+}
+
+.welcome-card h2 {
+    margin-top: 0;
+    font-size: 2em;
+}
+
+.nice-button {
+    background-color: white;
+    color: #667eea;
+    border: none;
+    padding: 12px 30px;
+    font-size: 16px;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.nice-button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
